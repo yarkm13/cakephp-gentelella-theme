@@ -26,8 +26,7 @@ if (file_exists($file)) {
                         <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                             <?php echo $this->Html->image('Gentelella./images/img.jpg')?>
                             <?php
-                                echo $this->request->session()->read('Auth.User.name') ?? $this->request->session()->read('Auth.User.username') ?? 'John Doe';
-
+                                echo $this->request->session()->read('Auth.User.name') ? $this->request->session()->read('Auth.User.name') : $this->request->session()->read('Auth.User.username') ? $this->request->session()->read('Auth.User.username') : 'John Doe';
                                 ?>
                             <span class=" fa fa-angle-down"></span>
                         </a>
