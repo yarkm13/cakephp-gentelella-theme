@@ -1,6 +1,3 @@
 [submodule "webroot/vendors/abpetkov/switchery"]
 	path = webroot/vendors/abpetkov/switchery
 	url = git@github.com:abpetkov/switchery.git
-[submodule "webroot/vendors/fengyuanchen/cropperjs"]
-	path = webroot/vendors/fengyuanchen/cropperjs
-	url = git@github.com:fengyuanchen/cropperjs.git
