@@ -1,0 +1,3 @@
+[submodule "webroot/vendors/abpetkov/switchery"]
+	path = webroot/vendors/abpetkov/switchery
+	url = git@github.com:abpetkov/switchery.git
