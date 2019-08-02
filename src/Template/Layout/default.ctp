@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Switchery -->
+    <?php echo $this->Html->css('Gentelella./vendors/abpetkov/switchery/dist/switchery.min'); ?>
+    <!-- Cropperjs -->
+    <?php echo $this->Html->css('Gentelella./vendors/fengyuanchen/cropperjs/dist/cropper.min'); ?>
 
     <?php echo $this->Html->css('Gentelella./vendors/iCheck/skins/flat/green'); ?>
     <?php echo $this->Html->css('Gentelella./vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min'); ?>
@@ -65,6 +69,10 @@
 <?php echo $this->Html->script('Gentelella./vendors/bernii/gauge.js/dist/gauge.min'); ?>
 <!-- SlimScroll -->
 <?php echo $this->Html->script('Gentelella./vendors/bootstrap-progressbar/bootstrap-progressbar.min'); ?>
+<!-- Switchery -->
+<?php echo $this->Html->script('Gentelella./vendors/abpetkov/switchery/dist/switchery.min'); ?>
+<!-- Cropperjs -->
+<?php echo $this->Html->script('Gentelella./vendors/fengyuanchen/cropperjs/dist/cropper.min'); ?>
 <!-- FastClick -->
 <?php echo $this->Html->script('Gentelella./vendors/iCheck/icheck.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/skycons/skycons'); ?>

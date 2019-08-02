@@ -1133,7 +1133,8 @@
           <div class="col-md-9">
             <!-- <h3 class="page-header">Demo:</h3> -->
             <div class="img-container">
-              <img id="image" src="images/picture2.jpg" alt="Picture">
+              <?= $this->Html->image('Gentelella./images/picture2.jpg'); ?>
+              <!--img id="image" src="images/picture2.jpg" alt="Picture"-->
             </div>
           </div>
           <div class="col-md-3">
