@@ -1,7 +1,8 @@
 <?php
 use Cake\Core\Configure;
 use Cake\Core\Exception\MissingPluginException;
-use Cake\Core\Plugin;
+//use Cake\Core\Plugin;
+//use Cake\Application;
 
 Configure::write('Theme', [
     'title' => 'Gentelella',
@@ -16,4 +17,5 @@ Configure::write('Theme', [
     ]
 ]);
 
-Plugin::load('BootstrapUI');
+//Plugin::load('BootstrapUI');
+//Application::addPlugin('BootstrapUI');

@@ -16,7 +16,8 @@
     <!-- Switchery -->
     <?php echo $this->Html->css('Gentelella./vendors/abpetkov/switchery/dist/switchery.min'); ?>
     <!-- Cropperjs -->
-    <?php echo $this->Html->css('Gentelella./vendors/fengyuanchen/cropperjs/dist/cropper.min'); ?>
+    <?php echo $this->Html->css('https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.4/cropper.min.css'); ?>
+    <?php echo $this->Html->css('Gentelella./vendors/fengyuanchen/jquery-cropper/dist/jquery-cropper.min'); ?>
 
     <?php echo $this->Html->css('Gentelella./vendors/iCheck/skins/flat/green'); ?>
     <?php echo $this->Html->css('Gentelella./vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min'); ?>
@@ -72,7 +73,8 @@
 <!-- Switchery -->
 <?php echo $this->Html->script('Gentelella./vendors/abpetkov/switchery/dist/switchery.min'); ?>
 <!-- Cropperjs -->
-<?php echo $this->Html->script('Gentelella./vendors/fengyuanchen/cropperjs/dist/cropper.min'); ?>
+<?php echo $this->Html->script('https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.4/cropper.min.js', ['block' => true]); ?>
+<?php echo $this->Html->script('Gentelella./vendors/fengyuanchen/jquery-cropper/dist/jquery-cropper.min', ['block' => true]); ?>
 <!-- FastClick -->
 <?php echo $this->Html->script('Gentelella./vendors/iCheck/icheck.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/skycons/skycons'); ?>
@@ -87,7 +89,7 @@
 <?php echo $this->Html->script('Gentelella./js/maps/jquery-jvectormap-2.0.3.min'); ?>
 <?php echo $this->Html->script('Gentelella./js/moment/moment.min'); ?>
 <?php echo $this->Html->script('Gentelella./js/datepicker/daterangepicker'); ?>
-<?php echo $this->Html->script('Gentelella./build/js/custom.min'); ?>
+<?php echo $this->Html->script('Gentelella./build/js/custom', ['block' => true]); ?>
 
 <?php echo $this->fetch('script'); ?>
 <?php echo $this->fetch('scriptBottom'); ?>
