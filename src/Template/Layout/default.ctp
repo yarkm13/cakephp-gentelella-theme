@@ -17,7 +17,7 @@
     <?php echo $this->Html->css('Gentelella./vendors/abpetkov/switchery/dist/switchery.min'); ?>
     <!-- Cropperjs -->
     <?php echo $this->Html->css('https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.4/cropper.min.css'); ?>
-    <?php echo $this->Html->css('Gentelella./vendors/fengyuanchen/jquery-cropper/dist/jquery-cropper.min'); ?>
+    <?php //echo $this->Html->css('Gentelella./vendors/fengyuanchen/jquery-cropper/dist/jquery-cropper.min'); ?>
 
     <?php echo $this->Html->css('Gentelella./vendors/iCheck/skins/flat/green'); ?>
     <?php echo $this->Html->css('Gentelella./vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min'); ?>
@@ -75,6 +75,9 @@
 <!-- Cropperjs -->
 <?php echo $this->Html->script('https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.4/cropper.min.js', ['block' => true]); ?>
 <?php echo $this->Html->script('Gentelella./vendors/fengyuanchen/jquery-cropper/dist/jquery-cropper.min', ['block' => true]); ?>
+<?php echo $this->Html->script('Gentelella./vendors/steveathon/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min', ['block' => true]); ?>
+<?php echo $this->Html->script('Gentelella./vendors/jQuery-hotkeys/jquery.hotkeys', ['block' => true]); ?>
+<?php echo $this->Html->script('Gentelella./vendors/googlearchive/code-prettify/src/prettify.js', ['block' => true]); ?>
 <!-- FastClick -->
 <?php echo $this->Html->script('Gentelella./vendors/iCheck/icheck.min'); ?>
 <?php echo $this->Html->script('Gentelella./vendors/skycons/skycons'); ?>
@@ -94,6 +97,13 @@
 <?php echo $this->fetch('script'); ?>
 <?php echo $this->fetch('scriptBottom'); ?>
 
+<script type='text/javascript'>
+    $('#editor').wysiwyg();
+
+    $(".dropdown-menu > input").click(function (e) {
+        e.stopPropagation();
+    });
+</script>
 <!-- bootstrap-daterangepicker -->
 <script>
     $(document).ready(function() {
