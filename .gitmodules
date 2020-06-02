@@ -1,15 +1,15 @@
 [submodule "webroot/vendors/abpetkov/switchery"]
 	path = webroot/vendors/abpetkov/switchery
-	url = git@github.com:abpetkov/switchery.git
+url=https://github.com/abpetkov/switchery.git
 [submodule "webroot/vendors/fengyuanchen/jquery-cropper"]
 	path = webroot/vendors/fengyuanchen/jquery-cropper
-	url = git@github.com:fengyuanchen/jquery-cropper.git
+url=https://github.com/fengyuanchen/jquery-cropper.git
 [submodule "webroot/vendors/steveathon/bootstrap-wysiwyg"]
 	path = webroot/vendors/steveathon/bootstrap-wysiwyg
-	url = git@github.com:steveathon/bootstrap-wysiwyg.git
+url=https://github.com/steveathon/bootstrap-wysiwyg.git
 [submodule "webroot/vendors/googlearchive/code-prettify"]
 	path = webroot/vendors/googlearchive/code-prettify
-	url = git@github.com:googlearchive/code-prettify.git
+url=https://github.com/googlearchive/code-prettify.git
 [submodule "webroot/vendors/jQuery-hotkeys"]
 	path = webroot/vendors/jQuery-hotkeys
-	url = git@github.com:jeresig/jquery.hotkeys.git
+url=https://github.com/jeresig/jquery.hotkeys.git
