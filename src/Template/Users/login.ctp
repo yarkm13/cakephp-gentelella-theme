@@ -18,7 +18,7 @@ if (file_exists($file)) {
         <div class="animate form login_form">
             <section class="login_content">
                 <?= $this->Form->create() ?>
-                    <h1><?php echo isset($theme['title']) ? $theme['title'] : 'Gentelella'; ?></h1>
+                    <h1><?php echo isset($theme['title']) ? $theme['title'] : 'Спорт для всіх'; ?></h1>
                     <div>
                         <?= $this->Form->input('username',['class'=>'form-control','placeholder'=>'Email','label'=>false,'required'=>true]) ?>
                     </div>
@@ -37,8 +37,8 @@ if (file_exists($file)) {
                         <br />
 
                         <div>
-                            <h1><i class="fa fa-paw"></i> HelpDesk</h1>
-                            <p>©2016 Todos Direitos Reservados. Desenvolvido por Hostmoz,Lda</p>
+                            <h1><i class="fa fa-futbol-o"></i> </h1>
+                            <p>©</p>
                         </div>
                     </div>
                 <?= $this->Form->end() ?>

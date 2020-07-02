@@ -44,6 +44,7 @@
         <?php echo $this->element('nav-top') ?>
         <!-- page content -->
         <div class="right_col" role="main">
+            <br /><br /><br /><br />
             <?php echo $this->Flash->render(); ?>
             <?php echo $this->Flash->render('auth'); ?>
             <?php echo $this->fetch('content'); ?>
