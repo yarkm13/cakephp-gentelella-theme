@@ -6,7 +6,7 @@ url=https://github.com/abpetkov/switchery.git
 url=https://github.com/fengyuanchen/jquery-cropper.git
 [submodule "webroot/vendors/steveathon/bootstrap-wysiwyg"]
 	path = webroot/vendors/steveathon/bootstrap-wysiwyg
-url=https://github.com/steveathon/bootstrap-wysiwyg.git
+url=https://github.com/yarkm13/bootstrap-wysiwyg.git
 [submodule "webroot/vendors/googlearchive/code-prettify"]
 	path = webroot/vendors/googlearchive/code-prettify
 url=https://github.com/googlearchive/code-prettify.git

@@ -76,7 +76,7 @@
 <!-- Cropperjs -->
 <?php echo $this->Html->script('https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.4/cropper.min.js', ['block' => true]); ?>
 <?php echo $this->Html->script('Gentelella./vendors/fengyuanchen/jquery-cropper/dist/jquery-cropper.min', ['block' => true]); ?>
-<?php echo $this->Html->script('Gentelella./vendors/steveathon/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min', ['block' => true]); ?>
+<?php echo $this->Html->script('Gentelella./vendors/steveathon/bootstrap-wysiwyg/src/bootstrap-wysiwyg', ['block' => true]); ?>
 <?php echo $this->Html->script('Gentelella./vendors/jQuery-hotkeys/jquery.hotkeys', ['block' => true]); ?>
 <?php echo $this->Html->script('Gentelella./vendors/googlearchive/code-prettify/src/prettify.js', ['block' => true]); ?>
 <!-- FastClick -->
@@ -99,7 +99,7 @@
 <?php echo $this->fetch('scriptBottom'); ?>
 
 <script type='text/javascript'>
-    $('#editor').wysiwyg();
+    //$('#editor').wysiwyg();
 
     $(".dropdown-menu > input").click(function (e) {
         e.stopPropagation();
